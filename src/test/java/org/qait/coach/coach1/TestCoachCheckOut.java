@@ -152,5 +152,5 @@ public class TestCoachCheckOut {
 	void testClickOnPlaceOrder() {
 		coachCheckOutObject.clickOnPlaceOrder();
 		assertEquals("check your order is placed", thankYou, coachCheckOutObject.getThankYouText());
-	}|
+	}
 }
